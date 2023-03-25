@@ -1,0 +1,31 @@
+class A {
+	void gets()
+	{
+		System.out.println("A method is call");
+	}
+}
+class B extends A{
+	void puts()
+	{
+		System.out.println("B method is call");
+	}
+}
+class C extends B{
+	void show()
+	{
+		System.out.println("C method is call");
+	}
+}
+
+public class Multilevelinhetance {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		 C obj3=new C();
+		 obj3.gets();
+		 obj3.puts();
+		 obj3.show();
+
+	}
+
+}

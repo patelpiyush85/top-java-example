@@ -1,0 +1,22 @@
+
+public class CopyConstructor {
+	double height,width,depth;
+	CopyConstructor (CopyConstructor c)
+	{
+		height=c.height;
+		width=c.width;
+		depth=c.depth;
+		
+	}
+	void volume()
+	{
+		System.out.println("Volume :"+(height*width*depth));
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CopyConstructor cn=new CopyConstructor();
+
+	}
+
+}

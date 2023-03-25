@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Dec 22 22:17:52 IST 2022
+org.eclipse.jst.jee.server\:CRUD=C\:\\Users\\Admin\\Desktop\\java lacture\\apache-tomcat-9.0.58-windows-x64-20221203T150310Z-001\\apache-tomcat-9.0.58-windows-x64\\apache-tomcat-9.0.58\\wtpwebapps\\CRUD
+org.eclipse.jst.jee.server\:Advacejava5=C\:\\Users\\Admin\\Desktop\\java lacture\\apache-tomcat-9.0.58-windows-x64-20221203T150310Z-001\\apache-tomcat-9.0.58-windows-x64\\apache-tomcat-9.0.58\\wtpwebapps\\Advacejava5

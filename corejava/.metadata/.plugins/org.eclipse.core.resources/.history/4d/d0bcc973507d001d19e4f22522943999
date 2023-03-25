@@ -1,0 +1,26 @@
+
+public class LessthaneightException {
+
+	public static void main(String[] args) {
+		
+		int age=Integer.parseInt(args[0]);
+		try
+		{
+		if(age<18)
+		{
+			throw new ArithmeticException("Invalid Age Exception");
+			
+		}
+		else
+		{
+			System.out.println("Welcome to vote");
+		}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+         System.out.println("Normal Flow");
+	}
+
+}

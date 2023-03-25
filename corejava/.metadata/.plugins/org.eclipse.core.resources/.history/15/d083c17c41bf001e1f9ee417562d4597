@@ -1,0 +1,24 @@
+class base
+{
+	base(int b)
+	{
+		System.out.println("base object value:" +b);
+	}
+}
+class child extends base
+{
+	child()
+	{
+		super(100);
+		System.out.println("Child object is created");
+	}
+}
+
+public class ParameterConstructor {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+     child c=new child();
+	}
+
+}

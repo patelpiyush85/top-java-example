@@ -1,0 +1,23 @@
+class parent
+{
+	void parent1()
+	{
+		System.out.println("This is a Parent");
+	}
+}
+class child extends parent
+{
+	void parent()
+	{
+		System.out.println("This is a child");
+	}
+}
+public class inheritance1java {
+
+	public static void main(String[] args) {
+		parent p=new parent();
+		p.parent1();
+
+	}
+
+}

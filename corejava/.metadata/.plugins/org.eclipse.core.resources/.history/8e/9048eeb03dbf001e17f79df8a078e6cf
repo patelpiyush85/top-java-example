@@ -1,0 +1,29 @@
+
+//public class Singleinheritance {
+	
+	 class A
+	{
+		void show()
+		{
+			System.out.println("A method is call");
+		}
+	}
+	 class B extends A
+	 {
+		 void show()
+		 {
+			 System.out.println("B method is call");
+		 }
+	 
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		A ob1=new A();
+		ob1.show();
+				
+
+	}
+	 }
+
+
